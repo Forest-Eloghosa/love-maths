@@ -25,7 +25,7 @@ body {
     background-color: #E6ECF0;
     box-sizing: border-box;
     width: 85%;
-    height: max-content;
+    height: 65vh;
     max-height: 500px;
     max-width: 830px;
     margin-left: auto;
@@ -338,7 +338,7 @@ body {
     }
 
     .question-area {
-        padding: 10% 0;
+        padding: 1% 0;
         width: 100%;
     }
 
