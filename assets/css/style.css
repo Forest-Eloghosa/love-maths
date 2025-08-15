@@ -66,7 +66,7 @@ body {
 }
 
 .answer-message {
-    display: none;
+    display: none !important;
     font-size: 1rem;
 }
 
@@ -223,15 +223,9 @@ body {
 
     .score-area {
         width: 100%;
-    }
+     }
 
-    .scores {
-        margin: 0.5em auto;
-        display: block;
-        padding: 5px;
-    }
-
-    .heading {
+     .heading {
         font-size: 2rem;
     }
 }
@@ -258,6 +252,8 @@ body {
  @media (max-width: 575.98px) {
    .game-area {
     height: fit-content;
+    padding-bottom: 3%;
+    width: fit-content;
     }
 
     .controls-area {
@@ -279,8 +275,7 @@ body {
     }
 
     .question-area {
-        padding: 10% 0;
-        width: 100%;
+         width: 100%;
     }
 
     .question-area span {
@@ -292,9 +287,10 @@ body {
     }
 
     #answer-box {
-        display: block;
-        margin: 0 auto;
+      display: inline-block;        
+      margin: 0 auto;
     }
+
     .btn--gray {
         margin-top: 0;
     }
@@ -303,11 +299,7 @@ body {
         width: 100%;
     }
 
-    .scores {
-        margin: 0.5em auto;
-        display: block;
-        padding: 5px;
-    }
+
 
     .heading {
         font-size: 2rem;
@@ -317,19 +309,21 @@ body {
 @media (min-width: 768px) {
 .game-area {
     height: fit-content;
+    max-width: 700px;
     }
 
     .controls-area {
         width: 100%;
+        margin: 10px auto;
     }
 
     .btn--big {
-        margin: 0 10px;
+        margin: 0 15px;
         padding: 5px;
-        border: 5px solid;
-        width: 50px;
-        height: 50px;
-        font-size: 1.5rem;
+        border: 6px solid;
+        width: 60px;
+        height: 60px;
+        font-size: 1.8rem;
     }
 
     .btn--big::after {
@@ -338,20 +332,15 @@ body {
     }
 
     .question-area {
-        padding: 1% 0;
-        width: 100%;
+         width: 100%;
     }
 
     .question-area span {
         padding: 0;
     }
-
-    .answer-message {
-        display: block;
-    }
-
+ 
     #answer-box {
-        display: block;
+        display: inline-block;
         margin: 0 auto;
     }
     .btn--gray {
@@ -362,11 +351,7 @@ body {
         width: 100%;
     }
 
-    .scores {
-        margin: 0.5em auto;
-        display: block;
-        padding: 5px;
-    }
+
 
     .heading {
         font-size: 2rem;
